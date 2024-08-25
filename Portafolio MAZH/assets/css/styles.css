@@ -1,0 +1,273 @@
+/* Color background para todas las paginas */
+
+body {
+    background-color: #d1d0d0;
+    -webkit-background-size: 0.3rem 0.3rem;
+    -moz-background-size: 0.3rem 0.3rem;
+    background-size: 0.3rem 0.3rem;
+    background-image: -moz-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px), -moz-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+    background-image: -o-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px), -o-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+    background-image: -ms-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px), -ms-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+    background-image: linear-gradient(to right, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px), linear-gradient(to bottom, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+    /* CONTROLA ANCHO DE PAGINNA */
+      max-width: 1500px;
+      margin: auto;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(59, 59, 59);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-shadow: 0.3rem 0.3rem 0 #aaa9a5;
+}
+
+h2 {
+    text-align: center;
+    font-family: Helvetica;
+    color: rgb(112, 112, 112);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-shadow: 0.2rem 0.2rem 0 #aaa9a5;
+}
+
+h3 {
+  font-family: helvetica;
+  color: rgb(59, 59, 59);
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 5px;
+  
+}
+
+h4 {
+    font-family: monospace;
+}
+
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+    color: dimgrey;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a{
+  color: rgb(59, 59, 59);
+  font-weight: bold;
+  }
+
+hr{
+  border-top: 5px solid;
+}
+
+
+li{
+  font-family: monospace;
+  color: dimgrey;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+#cardoptions{
+  font-family: monospace;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Color de las tarjetas en seccion de cursos */
+#card01 {
+    background-color: rgb(201, 201, 201);
+}
+
+#card02 {
+    background-color: rgb(201, 201, 201);
+}
+
+#card03 {
+    background-color: rgb(201, 201, 201);
+}
+
+/* Color de las los textos en las tarjetas de sección de cursos */
+
+#cardlist01 {
+    background-color: rgb(201, 201, 201);
+}
+
+#cardlist02 {
+    background-color: rgb(201, 201, 201);
+}
+
+#cardlist03 {
+    background-color: rgb(201, 201, 201);
+}
+
+/* Sombra para las tarjetas de cartas */
+.card {
+    background-color: rgb(201, 201, 201);
+    display: inline-block;
+    border: 5px solid black;
+    box-shadow: 10px 10px grey;
+    display: inline-block;
+    font-family: monospace;
+}
+
+/* Configuración de la navbar */
+.navbar {
+    background-color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#navbartitle{
+  font-family: monospace;
+}
+
+/* Pie de pagina - para todas las paginas */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer * {
+  margin: 5px 0;
+}
+
+/* Imagenes del carrusel */
+
+  /* Asegura que las imágenes llenen el carrusel y se ajusten */
+  .carousel-inner {
+    width: 100%;
+    height: 400px; /* Puedes ajustar esta altura según tu diseño */
+  }
+
+  .carousel-img {
+    object-fit: cover; /* Hace que la imagen cubra todo el contenedor sin distorsión */
+    height: 100%; /* Asegura que la imagen cubra toda la altura del carrusel */
+  }
+
+/* FORMULARIO DE CONTACTO */
+/* Boton de envio en formulario de contacto */
+#Boton-envio {
+    background-color: rgb(105, 105, 105);
+    font-family: Helvetica;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+
+
+}
+
+/* Formulario de contacto */
+
+.mb-3 {
+  padding-left: 50px;
+}
+
+/* CONFIGURACION LISTA EN HOME PARA QUE APAREZCA CON EL DESPLAZARSE */
+
+#Bimlist {
+    font-family: monospace;
+    text-align: justify;
+    color: dimgrey;
+}
+
+    #Bimlist li {
+        visibility: hidden;
+    }
+
+
+#mailgif {
+    width: 150px;
+    padding: 16px 32px;
+
+
+}
+
+/* SECCION PORTAFOLIO */
+
+/* Profile Pic */
+#Profile {
+  border-radius: 2%;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  
+  /* Center website */
+  /* CONTROLA ANCHO DE PAGINA EN SOBRE MI */
+  .main {
+    max-width: 1500px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: rgb(201, 201, 201);
+    border: 5px solid black;
+    box-shadow: 10px 10px grey;
+  
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  
